@@ -8,6 +8,21 @@ public class StrukBelanja {
         int hargaPulpen = 3000;
         int hargaPenghapus = 2000;
 
+        System.out.print("Nama Barang 1 : ");
+        String namaBarang1 = scanner.nextLine();
+        System.out.print("Jumlah    : ");
+        int jumlah1 = scanner.nextInt();
+
+        System.out.print("Nama Barang 2 : ");
+        String namaBarang2 = scanner.nextLine();
+        System.out.print("Jumlah    : ");
+        int jumlah2 = scanner.nextInt();
+
+        System.out.print("Nama Barang 3 : ");
+        String namaBarang3 = scanner.nextLine();
+        System.out.print("Jumlah    : ");
+        int jumlah3 = scanner.nextInt();
+
 
     }
 }
