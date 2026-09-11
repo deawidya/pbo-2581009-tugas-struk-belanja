@@ -26,6 +26,13 @@ public class StrukBelanja {
         int jumlah3 = scanner.nextInt();
         scanner.nextLine();
 
+        System.out.println("Uang di Bayar : ");
+        int uangdibayar = scanner.nextInt();
+
+        int subtotal1 = hargaBuku * jumlah1;
+        int subtotal2 = hargaBuku * jumlah2;
+        int subtotal3 = hargaBuku * jumlah3;
+
 
     }
 }
