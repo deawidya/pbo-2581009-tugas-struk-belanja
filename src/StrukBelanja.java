@@ -12,16 +12,19 @@ public class StrukBelanja {
         String namaBarang1 = scanner.nextLine();
         System.out.print("Jumlah    : ");
         int jumlah1 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Nama Barang 2 : ");
         String namaBarang2 = scanner.nextLine();
         System.out.print("Jumlah    : ");
         int jumlah2 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Nama Barang 3 : ");
         String namaBarang3 = scanner.nextLine();
         System.out.print("Jumlah    : ");
         int jumlah3 = scanner.nextInt();
+        scanner.nextLine();
 
 
     }
