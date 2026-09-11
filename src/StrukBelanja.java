@@ -30,8 +30,8 @@ public class StrukBelanja {
         int uangdibayar = scanner.nextInt();
 
         int subtotal1 = hargaBuku * jumlah1;
-        int subtotal2 = hargaBuku * jumlah2;
-        int subtotal3 = hargaBuku * jumlah3;
+        int subtotal2 = hargaPulpen * jumlah2;
+        int subtotal3 = hargaPenghapus * jumlah3;
 
         int totalBelanja = subtotal1 + subtotal2 + subtotal3;
         int kembalian = uangdibayar - totalBelanja;
