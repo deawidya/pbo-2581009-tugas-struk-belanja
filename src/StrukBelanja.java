@@ -33,6 +33,9 @@ public class StrukBelanja {
         int subtotal2 = hargaBuku * jumlah2;
         int subtotal3 = hargaBuku * jumlah3;
 
+        int totalBelanja = subtotal1 + subtotal2 + subtotal3;
+        int kembalian = uangdibayar - totalBelanja;
+
 
     }
 }
